@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Paytone+One&display=swap');
+
 
 
 .sidenav {
@@ -389,57 +391,33 @@ header {
 
 .hero_section {
   min-height: 100vh;
-  /* display: flex;
-  justify-content: center; */
   overflow: hidden;
   background-color: #131211;
-  
+  display: grid;
+    
 }
 
 
 #hero-headline {
   z-index: 3;
-  padding-top: 10vh;
-  margin: 0 4vw;
+  place-self: center;
+  font-family: 'Paytone One', sans-serif;
 }
 
 #hero-text {
-  font-size: 9vw;
-  font-weight: 600;
+  font-size: 8rem;
+  font-weight: 900;
   text-transform: uppercase;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   line-height: 1;
   text-align: center;
   z-index: 3;
-  color: f5f3ee;
-}
-
-
-
-#hero-subline {
-  margin-top: 10vh; 
-  margin-left: 4vw;
-  margin-right: 4vw;
-  display: flex;
-  flex-direction: row;
-  z-index: 4;
-  align-items: center;
-  gap: 20px;
-}
-
-#hero-subline p {
-  color: #F2EFE9;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-#hero-subline button {
-  border-radius: 50%;
-  border: #f5f3ee 1px solid;
-  padding: 15px 18px;
   color: #f5f3ee;
-  font-size: 20px;
+  
 }
+
+
+
 
 .char {
   transform: translateY(180px);
