@@ -71,28 +71,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /* -- Glow effect -- */
 
-const blob = document.getElementById("blob");
+// const blob = document.getElementById("blob");
 
-window.onpointermove = event => { 
-  const { clientX, clientY } = event;
+// window.onpointermove = event => { 
+//   const { clientX, clientY } = event;
   
-  blob.animate({
-    left: `${clientX}px`,
-    top: `${clientY * 0.7}px`
-  }, { duration: 10000, fill: "forwards" });
-}
+//   blob.animate({
+//     left: `${clientX}px`,
+//     top: `${clientY * 0.7}px`
+//   }, { duration: 10000, fill: "forwards" });
+// }
 
-gsap.to(blob, {
-  duration: 1,
-  height: "60vmax"
-});
+// gsap.to(blob, {
+//   duration: 1,
+//   height: "60vmax"
+// });
 
-const blob2 = document.getElementById("blob2");
+// const blob2 = document.getElementById("blob2");
 
-gsap.to(blob2, {
-  duration: 1,
-  height: "75vmax"
-});
+// gsap.to(blob2, {
+//   duration: 1,
+//   height: "75vmax"
+// });
 
 
 // video move down
@@ -175,6 +175,11 @@ function initImageRevealAnimation() {
 
 // Initialize the image reveal animation
 initImageRevealAnimation();
+
+
+
+
+
 // SERVICE SECTION
 
        

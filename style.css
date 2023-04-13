@@ -289,9 +289,10 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding: 2vh 4vw;
+  margin: 2vh 4vw;
   align-items: center;
 }
+
 
 .menu-box {
   display: flex;
@@ -325,21 +326,22 @@ header {
 #logo {
   font-size: 28px;
   font-weight: 600;
+  color: white;
 }
 
 #contact-btn {
   font-size: 18px;
   font-weight: 400;
-  color: mediumpurple;
-  border: mediumpurple 1px solid;
+  color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255) 1px solid;
   padding: 10px 30px;
   border-radius: 25px;
 }
 
 #contact-btn:hover {
   font-weight: 500;
-  background-color: mediumpurple;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .hamburger-menu {
@@ -351,7 +353,7 @@ header {
   display: block;
   width: 30px;
   height: 2px;
-  background-color: mediumpurple;
+  background-color: rgb(255, 255, 255);
   margin: 4px 0;
   transition: all 0.3s ease;
   transform-origin: center;
@@ -387,8 +389,8 @@ header {
 
 .hero_section {
   min-height: 100vh;
-  display: grid;
-  place-content: center;
+  /* display: flex;
+  justify-content: center; */
   overflow: hidden;
   background-color: #131211;
   
@@ -407,10 +409,12 @@ header {
   text-transform: uppercase;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   line-height: 1;
-  text-align: left;
+  text-align: center;
   z-index: 3;
   color: f5f3ee;
 }
+
+
 
 #hero-subline {
   margin-top: 10vh; 
@@ -442,7 +446,7 @@ header {
   transition: transform .5s;
 }
 
-#blur {
+/* #blur {
   height: 110%;
   width: 100%;
   position: absolute;
@@ -477,7 +481,7 @@ header {
   background: linear-gradient(to right, aquamarine, mediumpurple);
   animation: rotate2 60s infinite;
   opacity: 1;
-}
+} */
 
 
 #mobile-video {
@@ -1882,3 +1886,18 @@ button[type="submit"]:hover {
     display: none;
   }
 }
+
+.project-hover {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  margin: 10vh 4vw;
+  font-size: 50px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Coromant Garmond', serif;
+}
+
