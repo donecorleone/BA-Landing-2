@@ -1879,3 +1879,12 @@ button[type="submit"]:hover {
   font-family: 'Coromant Garmond', serif;
 }
 
+.div-1 {
+  flex: 1;
+  background-color: red;
+}
+
+.div-2 {
+  flex: 1;
+  background-color: blue;
+}
