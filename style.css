@@ -393,19 +393,20 @@ header {
   min-height: 100vh;
   overflow: hidden;
   background-color: #131211;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     
 }
 
 
 #hero-headline {
   z-index: 3;
-  place-self: center;
   font-family: 'Paytone One', sans-serif;
 }
 
 #hero-text {
-  font-size: 8rem;
+  font-size: 7vw;
   font-weight: 900;
   text-transform: uppercase;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -702,7 +703,7 @@ header {
 	margin: auto;
 	position: absolute;
   bottom: 0;
-  max-height: 8vh;
+  height: fit-content;
   overflow: hidden;
   z-index: 4;
   padding: 0;
@@ -714,7 +715,7 @@ header {
 .slider_text {
     
     color: #F2EFE9;
-    font-size: 3rem;
+    font-size: 3vw;
     font-weight: 700;
     padding: 0;
 }
